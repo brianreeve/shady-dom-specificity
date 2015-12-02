@@ -1,0 +1,22 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="x-menu">
+    <template>
+        <style>
+            .container ::content ul,
+            .container ::content p {
+                font-size: 30px;
+                color: green;
+            }
+        </style>
+
+        <div class="container">
+            <content></content>
+        </div>
+    </template>
+    <script>
+        Polymer({
+            is: "x-menu"
+        });
+    </script>
+</dom-module>

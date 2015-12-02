@@ -1,0 +1,22 @@
+{
+  "name": "shady-dom-specificity",
+  "version": "0.0.1",
+  "authors": [
+    "Brian Reeve <bcreeve@gmail.com>"
+  ],
+  "license": "none",
+  "homepage": "https://github.com/brianreeve/shady-dom-specificity",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^1"
+  },
+  "devDependencies": {
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
