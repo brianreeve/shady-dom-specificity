@@ -11,7 +11,7 @@ Clone and start polyserve:
 
 Then in a browser:
 
-    http://localhost:85/components/shady-dom-specificity/demo/index.html
+http://localhost:85/components/shady-dom-specificity/demo/index.html
 
 The text should be big and green, but you'll see the document styles take over the element's styles when using Shady DOM.
 
@@ -29,4 +29,4 @@ If you inspect the element you'll see that the Shady DOM shim causes the documen
 
 In Chrome, you can force native Shadow DOM and it works as intended:
 
-    http://localhost:85/components/shady-dom-specificity/demo/index.html?dom=shadow
+http://localhost:85/components/shady-dom-specificity/demo/index.html?dom=shadow
