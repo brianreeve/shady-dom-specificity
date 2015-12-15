@@ -16,7 +16,7 @@
 </head>
 <body>
 <div>
-
+    <h2>x-menu</h2>
     <x-menu>
         <ul>
             <li>Items should</li>
@@ -24,6 +24,31 @@
         </ul>
 
         <p>Text should be big and green.</p>
+    </x-menu>
+
+    <hr>
+
+    <h2>Document Styling</h2>
+    <ul>
+        <li>Items should</li>
+        <li>Be smaller and red</li>
+    </ul>
+
+    <p>Text should be smaller and red.</p>
+
+    <hr>
+
+    <h2>x-menu - bad workaround</h2>
+
+    <p style="color: black;">Here I give a class to each ul and p to increase specificity, but this is impractical.</p>
+
+    <x-menu>
+        <ul class='bad'>
+            <li>Items should</li>
+            <li>Be medium and blue</li>
+        </ul>
+
+        <p class='bad'>Text should be medium and blue.</p>
     </x-menu>
 
 </div>
